@@ -1,0 +1,58 @@
+.gallery {
+  max-width: var(--page-width);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .gallery-item {
+    color: var(--text-colour);
+
+    @for $i from 2 through 10 {
+      $delay: 0.25 * ($i - 1);
+      &:nth-child(#{$i}) {
+        animation-delay: #{$delay}s;
+      }
+    }
+
+    .technologies {
+      margin-top: 0.75rem;
+
+      img {
+        margin-right: 1rem;
+        height: 1.25rem;
+      }
+    }
+  }
+
+  .more {
+    align-self: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .gallery {
+    &.flex-row {
+      flex-flow: row wrap;
+  
+      .gallery-item {
+        width: calc((var(--page-width) - 2.1rem) / 2);
+      }
+    }
+
+    .gallery-item .techstack img {
+      height: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery {
+    &.flex-row .gallery-item {
+      width: calc((var(--page-width) - 2rem) / 3);
+    }
+
+    .gallery-item .techstack img {
+      height: 1.5rem;
+    }
+  }
+}

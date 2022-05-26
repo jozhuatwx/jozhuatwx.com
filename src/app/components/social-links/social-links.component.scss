@@ -1,0 +1,20 @@
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+
+  a {
+    transition: transform 0.25s;
+
+    &:hover,
+    &:focus-within {
+      transform: scale(1.25);
+    }
+
+    svg {
+      height: var(--p-larger-font-size);
+      color: var(--text-colour);
+    }
+  }
+}

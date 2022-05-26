@@ -1,0 +1,66 @@
+.app-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .splash {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+
+    img {
+      height: 18rem;
+      width: 18rem;
+    }
+  }
+
+  .about {
+    p {
+      white-space: pre-line;
+      margin-bottom: 1rem;
+    }
+
+    svg {
+      height: 1rem;
+      margin-right: 2rem;
+      color: var(--text-colour);
+      transition: transform 0.25s;
+
+      &:hover,
+      &:focus-within {
+        transform: scale(1.25);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .app-home {
+    .splash {
+      flex-direction: row;
+      align-items: center;
+
+      img {
+        order: 2;
+        align-self: auto;
+        margin: 0 0 0 -8rem;
+        height: 32rem;
+        width: 32rem;
+      }
+
+      div {
+        order: 1;
+      }
+    }
+
+    .about {
+      max-width: 1300px;
+
+      svg {
+        height: 1.5rem;
+      }
+    }
+  }
+}

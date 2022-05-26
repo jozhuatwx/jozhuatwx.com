@@ -1,0 +1,36 @@
+[
+  {
+    "id": "i-had-a-cgpa-of-3.92-until-i-failed-my-first-exam",
+    "title": "I had a CGPA of 3.92 - until I failed my first exam",
+    "description": "The challenges that I face whilst attending online classes.",
+    "category": "Experience",
+    "tags": [ "" ],
+    "heroImage": {
+      "src": "assets/developer/blog/i-had-a-cgpa-of-3.92-until-i-failed-my-first-exam-hero-image.webp",
+      "alt": "Screenshot of an online class using Microsoft Teams.",
+      "height": 568,
+      "width": 757
+    },
+    "content": [
+      "When cities began locking down, it was a dream-come-true to avoid attending classes physically. It meant that I could sleep right till classes start, avoid traffic jams, and participate from my bed.",
+      "Having experienced it for over a year, I want to shed light on the obstacles I faced whilst attending them.",
+      "My biggest challenge is staying attentive. Online or offline, classes bore me quickly. To cope, I listened to keywords while I surf the Internet or complete my assignments.",
+      "When we switched online, I learnt that lecturers’ voices were a white noise I could easily tune out; I could no longer do the same. Yet, giving my full attention bore me out instantly, and with a bed by my side, sleeping is a real temptation.",
+      "The irony is that the convenience made it tricky for me to attend. Some classes did captivate me, but they were far and few. Those were classes that had interactions – no, not the answering questions but casual interactions like sharing GIFs and memes in the chat.",
+      "This brings me to the next challenge, missing the human touch. One thing that separates an online course from a physical university course is human interactions, especially with friends.",
+      "University life encompasses more than just learning. It is also a journey with our friends where we make unforgettable memories: cracking jokes, spewing nonsense, making irrational decisions. These are now memories and interactions stolen. The only touch I have left is with my laptop’s touchscreen.",
+      "Now to the clickbait-ish title of how I failed my exam. As classes shifted online, so did exams. I had no qualms with it - quite the opposite, I welcomed it. Until I received my results stating that I had failed an exam that I was confident I had no issues with.",
+      "It turns out that my answers were not submitted despite me triple-checking them. The most terrifying fact is that the most probable outcome is to retake my exam. There is nothing I can do to prove that I had answered all the questions. But still, I escalated it as far as I could.",
+      "The process was frustrating, replies were slow and periodic follow-ups were ignored. It was only two days before my scheduled resit exam, was it confirmed that I had to retake it. While it did waive the cap on results, it is still disappointing that I had to retake an exam. (Update: I was informed on the morning itself that I wasn't required to.)",
+      "My challenge is minuscule compared to many. I was fortunate to have a stable Internet connection and my personal laptop to attend classes. But the digital divide is real. I could only imagine the ordeal many students, especially those from lower-income families, had to face.",
+      "There is nothing fundamentally wrong with online classes. But these challenges also represent a broader need to address these problems as we continue transforming into a digital society."
+    ],
+    "readingTime": {
+      "minutes": 1,
+      "seconds": 59
+    },
+    "date": 1624959000000,
+    "externalUrl": false,
+    "url": "/developer/blog/i-had-a-cgpa-of-3.92-until-i-failed-my-first-exam"
+  }
+]

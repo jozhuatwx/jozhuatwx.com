@@ -1,0 +1,27 @@
+<article class='app-gallery-details page'>
+  <app-breadcrumb></app-breadcrumb>
+  <header class='page-header'>
+    <h4 class='accent-colour'>{{data?.title}}</h4>
+    <p class='description larger-p italic'>{{data?.description}}</p>
+    <p>
+      {{data?.category}}
+      <span *ngIf='data?.status'> | {{data?.status}}</span>
+      <time *ngIf='data?.date'> | {{data?.date | date: 'longDate'}}</time>
+      <span *ngIf='data?.readingTime'> | {{data?.readingTime?.minutes}}m {{data?.readingTime?.seconds}}s</span>
+    </p>
+  </header>
+
+  <div class='page-split'>
+    <aside class='sidebar'></aside>
+
+    <section class='content card card-rounded'>
+      <figure>
+        <img *ngIf='data?.heroImage' class='card-image' src={{data?.heroImage?.src}} alt={{data?.heroImage?.alt}} />
+        <figcaption>{{data?.heroImage?.alt}}</figcaption>
+      </figure>
+      <div class='card-content'>
+        <p *ngFor='let item of data?.content' class='large-p'>{{item}}</p>
+      </div>
+    </section>
+  </div>
+</article>

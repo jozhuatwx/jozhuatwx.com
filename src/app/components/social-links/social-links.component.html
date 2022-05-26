@@ -1,0 +1,8 @@
+<div class='social-links'>
+  <a *ngFor='let link of links' href={{link.url}} target='_blank' rel='noopener'>
+    <svg [attr.viewBox]='link.svg.viewBox'>
+      <title>{{link.svg.alt}}</title>
+      <path fill='currentColor' [attr.d]='link.svg.d'></path>
+    </svg>
+  </a>
+</div>

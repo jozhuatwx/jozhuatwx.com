@@ -1,0 +1,33 @@
+<div class='app-developer page' [loading]='loading'>
+  <header class='page-header accent-colour'>developer <span class='tag tag-rounded'>beta</span></header>
+  <div class='page-split'>
+    <aside class='sidebar'>
+      <h5 class='page-subheader underline'><a href='/developer/certificates' [routerLink]='"/developer/certificates"' rel='noopener'>certificates</a></h5>
+      <div class='card card-outline card-rounded'>
+        <div class='card-content'>
+          <div *ngIf='certificates.length > 0; else noCertificates' class='certificates'>
+            <a *ngFor='let item of certificates' href={{item.url}} target='_blank' rel='noopener'>
+              <img src={{item.heroImage.src}} alt={{item.heroImage.alt}} />
+            </a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div class='content'>
+      <section>
+        <h5 class='page-subheader underline'><a href='/developer/projects' [routerLink]='"/developer/projects"' rel='noopener'>projects</a></h5>
+        <app-gallery [data]='projects' [dataType]='GalleryDataType.DEVELOPER_PROJECT' [numberOfResults]='deviceService.isMobile ? 1 : 2' [showMore]='true' [showMoreLink]='"/developer/projects"'></app-gallery>
+      </section>
+
+      <section>
+        <h5 class='page-subheader underline'><a href='/developer/blog' [routerLink]='"/developer/blog"' rel='noopener'>blog</a></h5>
+        <app-gallery [data]='blog' [dataType]='GalleryDataType.BLOG' [infiniteScroll]='true'></app-gallery>
+      </section>
+    </div>
+  </div>
+</div>
+
+<ng-template #noCertificates>
+  <p>no certificates published yet.</p>
+</ng-template>

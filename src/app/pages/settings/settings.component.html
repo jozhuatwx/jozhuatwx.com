@@ -1,0 +1,33 @@
+<div class='app-settings page'>
+  <header class='page-header accent-colour'>settings <span class='tag tag-rounded'>beta</span></header>
+  <div class='page-split'>
+    <aside class='sidebar'></aside>
+
+    <div class='content'>
+      <section>
+        <h5 class='page-subheader'>personalise</h5>
+        <div class='input-group'>
+          <label for='theme'>theme</label>
+          <select id='theme' [(ngModel)]='settingsService.settings.theme' (ngModelChange)='settingsService.updateTheme()'>
+            <option value='device'>Device</option>
+            <option value='light'>Light</option>
+            <option value='dark'>Dark</option>
+          </select>
+        </div>
+      </section>
+
+      <section>
+        <h5 class='page-subheader'>accessibility</h5>
+        <div class='input-group'>
+          <label for='letter-spacing'>letter spacing</label>
+          <input id='letter-spacing' class='slider' type='range' min='0' max='15' step='0.25' [(ngModel)]='settingsService.settings.letterSpacing' (ngModelChange)='settingsService.updateLetterSpacing()'/>
+        </div>
+
+        <div class='input-group'>
+          <label for='word-spacing'>word spacing</label>
+          <input id='word-spacing' class='slider' type='range' min='0' max='25' step='0.25' [(ngModel)]='settingsService.settings.wordSpacing' (ngModelChange)='settingsService.updateWordSpacing()'/>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

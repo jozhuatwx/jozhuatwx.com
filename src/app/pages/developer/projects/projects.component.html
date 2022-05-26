@@ -1,0 +1,20 @@
+<div [loading]='loading' class='app-projects page'>
+  <app-breadcrumb></app-breadcrumb>
+  <header class='page-header'>
+    <h4 class='accent-colour'>projects <span class='tag tag-rounded'>beta</span></h4>
+  </header>
+  <app-gallery [data]='projects' [dataType]='GalleryDataType.DEVELOPER_PROJECT' [flexRow]='true'></app-gallery>
+
+  <!-- <div class='page-split'>
+    <div class='sidebar'>
+      <section class='filter card card-rounded card-outline'>
+        <div class='card-content'>
+          <h6>filter</h6>
+        </div>
+      </section>
+    </div>
+    <div class='content'>
+      <app-gallery [projectsData]='projectsData'></app-gallery>
+    </div>
+  </div> -->
+</div>

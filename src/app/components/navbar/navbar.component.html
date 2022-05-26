@@ -1,0 +1,8 @@
+<nav>
+  <a *ngFor='let link of links; index as i;' class='navbutton' href='{{link.url}}' [routerLink]='link.url' routerLinkActive='active' rel='noopener'>
+    <svg [attr.viewBox]='link.svg.viewBox'>
+      <title>{{link.svg.alt}}</title>
+      <path fill='currentColor' [attr.d]='link.svg.d'></path>
+    </svg>
+  </a>  
+</nav>

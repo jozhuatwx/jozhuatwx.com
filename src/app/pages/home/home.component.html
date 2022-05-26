@@ -1,0 +1,19 @@
+<div class='app-home' [loading]='loading'>
+  <section class='splash page page-full page-with-hint'>
+    <img *ngIf='home?.splash?.image' src={{home?.splash?.image?.src}} alt={{home?.splash?.image?.alt}} />
+    <div>
+      <h2 class='accent-colour'>{{home?.splash?.title}}</h2>
+      <h5>{{home?.splash?.content}}</h5>
+    </div>
+  </section>
+
+  <section class='about page'>
+    <div class='card card-rounded slide-in slide-in-top'>
+      <div class='card-content'>
+        <h4 class='accent-colour'>about me</h4>
+        <p class='large-p'>{{home?.about?.content}}</p>
+        <app-social-links [links]='links'></app-social-links>
+      </div>
+    </div>
+  </section>
+</div>

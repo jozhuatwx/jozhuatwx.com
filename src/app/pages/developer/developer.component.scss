@@ -1,0 +1,32 @@
+.app-developer {
+  .certificates {
+    padding: 0.5rem 0;
+    display: flex;
+    overflow: scroll hidden;
+    gap: 1rem;
+
+    a {
+      transition: transform 0.25s;
+
+      &:hover,
+      &:focus-within {
+        transform: scale(1.25);
+      }
+
+      img {
+        height: 5rem;
+        max-width: 5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .app-developer {
+    .certificates {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      overflow: unset;
+    }
+  }
+}

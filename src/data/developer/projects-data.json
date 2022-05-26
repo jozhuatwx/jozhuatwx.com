@@ -1,0 +1,182 @@
+[
+  {
+    "id": "personal-website",
+    "title": "Personal Website",
+    "description": "My personal online playground for me to mess around with code.",
+    "category": "Side Project",
+    "tags": [ "Angular", "TypeScript", "Netlify" ],
+    "heroImage": {
+      "src": "assets/developer/projects/personal-website-screenshot.webp",
+      "alt": "Screenshot of personal website",
+      "height": 300,
+      "width": 500
+    },
+    "externalUrl": true,
+    "url": "https://github.com/jozhuatwx/jozhuatwx.com",
+    "technologies": [
+      {
+        "src": "assets/icons/angular-logo.svg",
+        "alt": "Angular"
+      },
+      {
+        "src": "assets/icons/typescript-logo.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "src": "assets/icons/netlify-logo.svg",
+        "alt": "Netlify"
+      },
+      {
+        "src": "assets/icons/cloudflare-logo.svg",
+        "alt": "Cloudflare"
+      }
+    ]
+  },
+  {
+    "id": "classer",
+    "title": "Class Emotion Recognition System (ClassER)",
+    "description": "A web-based system to complement existing student survey systems by analysing students' facial expressions using Azure.",
+    "category": "Final Year Project",
+    "tags": [ "Angular", "TypeScript", "Azure", "C#" ],
+    "externalUrl": true,
+    "url": "https://github.com/jozhuatwx/classer",
+    "status": "Completed",
+    "technologies": [
+      {
+        "src": "assets/icons/angular-logo.svg",
+        "alt": "Angular"
+      },
+      {
+        "src": "assets/icons/typescript-logo.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "src": "assets/icons/azure-logo.svg",
+        "alt": "Azure"
+      },
+      {
+        "src": "assets/icons/csharp-logo.svg",
+        "alt": "C#"
+      }
+    ]
+  },
+  {
+    "id": "university-assignment-designing-and-developing-applications-on-the-cloud",
+    "title": "Public Bus Management System",
+    "description": "An online portal to manage buses, stations, routes, users, and payments using Azure.",
+    "category": "University Assignment",
+    "tags": [ "Angular", "TypeScript", "Azure", "C#" ],
+    "externalUrl": true,
+    "url": "https://github.com/jozhuatwx/university-assignment-designing-and-developing-applications-on-the-cloud",
+    "status": "Completed",
+    "technologies": [
+      {
+        "src": "assets/icons/angular-logo.svg",
+        "alt": "Angular"
+      },
+      {
+        "src": "assets/icons/typescript-logo.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "src": "assets/icons/azure-logo.svg",
+        "alt": "Azure"
+      },
+      {
+        "src": "assets/icons/aspnet-core-logo.webp",
+        "alt": "ASP.NET Core"
+      },
+      {
+        "src": "assets/icons/csharp-logo.svg",
+        "alt": "C#"
+      },
+      {
+        "src": "assets/icons/ef-core-logo.webp",
+        "alt": "Entity Framework Core"
+      }
+    ]
+  },
+  {
+    "id": "aleca",
+    "title": "ALECA",
+    "description": "A web-based system catered for the O&G industry using AspNet Boilerplate.",
+    "category": "Internship",
+    "tags": [ "Internship", "Angular", "TypeScript", "ASP.NET Core", "C#", "EF Core" ],
+    "externalUrl": true,
+    "url": "https://www.alecasolutions.com/modules",
+    "technologies": [
+      {
+        "src": "assets/icons/angular-logo.svg",
+        "alt": "Angular"
+      },
+      {
+        "src": "assets/icons/typescript-logo.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "src": "assets/icons/azure-logo.svg",
+        "alt": "Azure"
+      },
+      {
+        "src": "assets/icons/aspnet-core-logo.webp",
+        "alt": "ASP.NET Core"
+      },
+      {
+        "src": "assets/icons/csharp-logo.svg",
+        "alt": "C#"
+      },
+      {
+        "src": "assets/icons/ef-core-logo.webp",
+        "alt": "Entity Framework Core"
+      }
+    ]
+  },
+  {
+    "id": "university-assignment-data-structures",
+    "title": "Data Structures and Algorithms",
+    "description": "A console application to manage records using Arrays and Linked Lists with various searching and sorting algorithms.",
+    "category": "University Assignment",
+    "tags": [ "C++" ],
+    "externalUrl": true,
+    "url": "https://github.com/jozhuatwx/university-class-data-structures",
+    "status": "Completed",
+    "technologies": [
+      {
+        "src": "assets/icons/cpp-logo.svg",
+        "alt": "C++"
+      }
+    ]
+  },
+  {
+    "id": "university-assignment-concurrent-programming",
+    "title": "Concurrent Programming",
+    "description": "A console application to simulate a café, mitigating and recovering from potential deadlocks.",
+    "category": "University Assignment",
+    "tags": [ "Java" ],
+    "externalUrl": true,
+    "url": "https://github.com/jozhuatwx/university-assignment-concurrent-programming",
+    "status": "Completed",
+    "technologies": [
+      {
+        "src": "assets/icons/java-logo.svg",
+        "alt": "Java"
+      }
+    ]
+  },
+  {
+    "id": "university-assignment-software-developer-project",
+    "title": "Co-curriculum System",
+    "description": "An online portal for a university’s societies to promote themselves.",
+    "category": "Diploma Project",
+    "tags": [ "PHP" ],
+    "externalUrl": true,
+    "url": "https://github.com/jozhuatwx/university-assignment-software-development-project",
+    "status":"Completed",
+    "technologies": [
+      {
+        "src": "assets/icons/php-logo.svg",
+        "alt": "PHP"
+      }
+    ]
+  }
+]

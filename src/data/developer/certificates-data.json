@@ -1,0 +1,92 @@
+[
+  {
+    "id": "microsoft-learn-student-ambassador",
+    "title": "Microsoft Learn Student Ambassador: Beta",
+    "heroImage": {
+      "src": "assets/developer/certificates/mlsa-beta-badge.webp",
+      "alt": "Microsoft Learn Student Ambassador: Beta"
+    },
+    "url": "https://studentambassadors.microsoft.com/en-US/profile/13123"
+  },
+  {
+    "id": "azure-developer-associate",
+    "title": "Microsoft Certified: Azure Developer Associate",
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-developer-associate-badge.webp",
+      "alt": "Microsoft Certified: Azure Developer Associate"
+    },
+    "url": "https://www.credly.com/badges/8f2b04d0-56d7-42ed-bcf9-4f31c0cf38b7"
+  },
+  {
+    "id": "azure-ai-engineer-associate",
+    "title":"Microsoft Certified: Azure AI Engineer Associate",
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-ai-engineer-associate-badge.webp",
+      "alt":"Microsoft Certified: Azure AI Engineer Associate"
+    },
+    "url": "https://www.credly.com/badges/ecfeda23-df22-4234-be94-61741a5db9d8"
+  },
+  {
+    "id": "azure-administrator-associate",
+    "title": "Microsoft Certified: Azure Administrator Associate",
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-administrator-associate-badge.webp",
+      "alt": "Microsoft Certified: Azure Administrator Associate"
+    },
+    "url": "https://www.credly.com/badges/717bbce7-35b6-4463-bc14-c5eaa813cf65"
+  },
+  {
+    "id": "azure-fundamentals",
+    "title": "Microsoft Certified: Azure Fundamentals",
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-fundamentals-badge.webp",
+      "alt": "Microsoft Certified: Azure Fundamentals"
+    },
+    "url": "https://www.credly.com/badges/86f6fbe4-4fd8-447d-805c-15132240f867"
+  },
+  {
+    "id": "azure-ai-fundamentals",
+    "title": "Microsoft Certified: Azure AI Fundamentals",
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-ai-fundamentals-badge.webp",
+      "alt": "Microsoft Certified: Azure AI Fundamentals"
+    },
+    "url": "https://www.credly.com/badges/ce89f1d7-279c-4524-bd36-b32a63ff53ec"
+  },
+  {
+    "id": "azure-data-fundamentals",
+    "title": "Microsoft Certified: Azure Data Fundamentals",
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-data-fundamentals-badge.webp",
+      "alt": "Microsoft Certified: Azure Data Fundamentals"
+    },
+    "url": "https://www.credly.com/badge/10fd1dd3-cac9-4bbb-b548-6e896ce7a919"
+  },
+  {
+    "id": "microsoft-365-fundamentals",
+    "title": "Microsoft 365 Certified: Fundamentals",
+    "heroImage": {
+      "src": "assets/developer/certificates/microsoft-365-fundamentals-badge.webp",
+      "alt": "Microsoft 365 Certified: Fundamentals"
+    },
+    "url": "https://www.credly.com/badges/2c6f56ee-b68d-42ce-ac39-283be909afba"
+  },
+  {
+    "id": "security-compliance-and-identity-fundamentals",
+    "title": "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+    "heroImage": {
+      "src": "assets/developer/certificates/security-compliance-and-identity-fundamentals-badge.webp",
+      "alt": "Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+    },
+    "url": "https://www.credly.com/badges/27c0c310-949c-47d9-a64d-02aeec4800c3"
+  },
+  {
+    "id": "power-platform-fundamentals",
+    "title": "Microsoft Certified: Power Platform Fundamentals",
+    "heroImage": {
+      "src": "assets/developer/certificates/power-platform-fundamentals-badge.webp",
+      "alt": "Microsoft Certified: Power Platform Fundamentals"
+    },
+    "url": "https://www.credly.com/badges/1e764c01-2ef7-4812-88f3-711a4e876e65"
+  }
+]

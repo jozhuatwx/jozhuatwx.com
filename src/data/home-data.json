@@ -1,0 +1,13 @@
+{
+  "splash": {
+    "title": "hello world!",
+    "content": "welcome to jozhua ten's online playground",
+    "image": {
+      "src": "assets/home/splash.webp",
+      "alt": "an image of jozhuatwx"
+    }
+  },
+  "about": {
+    "content": "i’m a software engineer from malaysia. i find programming creative and fun because of the endless possibilities and perspectives - there’s no be-all and end-all. my aspiration is to use these skills to impact and change the world.\n\ni also like travelling, badminton, and plants! imposter syndrome is a frequent obstacle for me, but i’m learning to challenge myself to gain more skills and confidence.\n\nthanks for visiting my page! i'll be adding more content soon, in the meantime, follow me at:\n"  
+  }
+}
