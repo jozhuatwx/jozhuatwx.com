@@ -1,4 +1,4 @@
-<div [loading]='loading' class='content' [@routerAnimations]='outlet?.activatedRouteData?.animation | routerOutletAnimationPage: deviceService.isMobile'>
+<div [loading]='loading' class='content' [@routerAnimations]='outlet?.activatedRouteData?.["animation"] | routerOutletAnimationPage: deviceService.isMobile'>
   <router-outlet #outlet='outlet'></router-outlet>
   <app-footer></app-footer>
 </div>

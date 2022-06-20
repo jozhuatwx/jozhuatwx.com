@@ -62,7 +62,7 @@
                 "src/netlify.toml"
               ]
             },
-            "staging" : {
+            "staging": {
               "budgets": [
                 {
                   "type": "initial",

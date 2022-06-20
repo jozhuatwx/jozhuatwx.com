@@ -34,7 +34,7 @@ export class GalleryDetailsComponent implements OnInit {
           this.httpRequestService.getData<GalleryData[]>('developer/blog-data.json')
             .subscribe({
               next: (projects) => {
-                this.data = projects.find(project => project.id == params.id);
+                this.data = projects.find(project => project.id == params['id']);
                 if (this.data) {
                   this.metaTagsService.update(new MetaTags({
                     title: this.data.title ? `${this.data.title} | Jozhua Ten` : undefined,
