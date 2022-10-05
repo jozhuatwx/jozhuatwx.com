@@ -151,5 +151,8 @@
       }
     }
   },
-  "defaultProject": "jozhuatwx"
+  "defaultProject": "jozhuatwx",
+  "cli": {
+    "analytics": false
+  }
 }
