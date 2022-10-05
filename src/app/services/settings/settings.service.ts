@@ -46,10 +46,12 @@ export class SettingsService {
   }
 
   updateLetterSpacing(): void {
+    this.settings.letterSpacing ??= '0';
     document.documentElement.style.setProperty('--letter-spacing', `${this.settings.letterSpacing}px`);
   }
 
   updateWordSpacing(): void {
+    this.settings.wordSpacing ??= '0';
     document.documentElement.style.setProperty('--word-spacing', `${this.settings.wordSpacing}px`);
   }
 

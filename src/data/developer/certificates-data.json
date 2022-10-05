@@ -1,15 +1,5 @@
 [
   {
-    "id": "microsoft-learn-student-ambassador",
-    "title": "Microsoft Learn Student Ambassador: Beta",
-    "tags": [ "Microsoft", "Azure", "Fundamentals" ],
-    "heroImage": {
-      "src": "assets/developer/certificates/mlsa-beta-badge.webp",
-      "alt": "Microsoft Learn Student Ambassador: Beta"
-    },
-    "url": "https://studentambassadors.microsoft.com/en-US/profile/13123"
-  },
-  {
     "id": "azure-developer-associate",
     "title": "Microsoft Certified: Azure Developer Associate",
     "tags": [ "Microsoft", "Azure", "Associate" ],
@@ -18,6 +8,42 @@
       "alt": "Microsoft Certified: Azure Developer Associate"
     },
     "url": "https://www.credly.com/badges/8f2b04d0-56d7-42ed-bcf9-4f31c0cf38b7"
+  },
+  {
+    "id": "azure-administrator-associate",
+    "title": "Microsoft Certified: Azure Administrator Associate",
+    "tags": [ "Microsoft", "Azure", "Associate" ],
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-administrator-associate-badge.webp",
+      "alt": "Microsoft Certified: Azure Administrator Associate"
+    },
+    "url": "https://www.credly.com/badges/bec13b14-22aa-4605-b6b9-800d3098e20e"
+  },
+  {
+    "id": "azure-ai-engineer-associate",
+    "title": "Microsoft Certified: Azure AI Engineer Associate",
+    "tags": [
+      "Microsoft", "Azure", "Associate"
+    ],
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-ai-engineer-associate-badge.webp",
+      "alt": "Microsoft Certified: Azure AI Engineer Associate"
+    },
+    "url": "https://www.credly.com/badges/09f2785b-6ef1-490e-9c46-3186d1cc3e04"
+  },
+  {
+    "id": "microsoft-learn-student-ambassador",
+    "title": "Microsoft Learn Student Ambassador: Beta",
+    "tags": [
+      "Microsoft",
+      "Azure",
+      "Fundamentals"
+    ],
+    "heroImage": {
+      "src": "assets/developer/certificates/mlsa-beta-badge.webp",
+      "alt": "Microsoft Learn Student Ambassador: Beta"
+    },
+    "url": "https://studentambassadors.microsoft.com/en-US/profile/13123"
   },
   {
     "id": "azure-fundamentals",

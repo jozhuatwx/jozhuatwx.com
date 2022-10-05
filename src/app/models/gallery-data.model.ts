@@ -21,7 +21,7 @@ export interface GalleryData {
   date: Date;
 }
 
-export enum GalleryDataType {
+export enum GalleryDataEnum {
   BLOG,
   DEVELOPER_PROJECT,
   CERTIFICATE

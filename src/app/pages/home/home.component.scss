@@ -9,10 +9,13 @@
     align-items: flex-end;
     align-content: center;
     justify-content: center;
+    text-align: right;
 
     img {
-      height: 18rem;
-      width: 18rem;
+      z-index: -1;
+      max-height: 50vh;
+      max-width: 90vw;
+      object-fit: contain;
     }
   }
 
@@ -45,13 +48,14 @@
       img {
         order: 2;
         align-self: auto;
-        margin: 0 0 0 -8rem;
-        height: 32rem;
-        width: 32rem;
+        margin: 0 0 0 -4rem;
+        max-height: 80vh;
+        max-width: 45vw;
       }
 
       div {
         order: 1;
+        margin-bottom: 4rem;
       }
     }
 

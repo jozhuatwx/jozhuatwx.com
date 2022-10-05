@@ -6,7 +6,7 @@ import { GoogleAnalyticsService } from 'src/app/services/google-analytics/google
 import { MetaTagsService } from 'src/app/services/meta-tags/meta-tags.service';
 import { DeviceService } from 'src/app/services/device/device.service';
 
-import { GalleryData, GalleryDataType } from 'src/app/models/gallery-data.model';
+import { GalleryData, GalleryDataEnum } from 'src/app/models/gallery-data.model';
 import { MetaTags } from 'src/app/models/meta-tags.model';
 import { GtagExceptionEvent } from 'src/app/models/google-analytics/event/gtag-exception-event.model';
 
@@ -22,7 +22,7 @@ export class DeveloperComponent implements OnInit {
   blog: GalleryData[] = [];
   certificates: GalleryData[] = [];
 
-  GalleryDataType = GalleryDataType;
+  GalleryDataEnum = GalleryDataEnum;
 
   constructor(
     private httpRequestService: HttpRequestService,

@@ -202,16 +202,6 @@ figure {
       &.card-arrow {
         padding-right: 2.5rem;
       }
-
-      .card-title {
-        margin-bottom: 0.25rem;
-      }
-
-      .card-subtitle {
-        font-weight: 300;
-        font-size: 0.85rem;
-        margin-bottom: 0.25rem;
-      }
     }
 
     > svg.arrow {
@@ -239,6 +229,16 @@ figure {
 
     &.card-vertical-centered {
       align-self: center;
+    }
+
+    .card-title {
+      margin-bottom: 0.25rem;
+    }
+
+    .card-subtitle {
+      font-weight: 300;
+      font-size: 0.85rem;
+      margin-bottom: 0.25rem;
     }
   }
 

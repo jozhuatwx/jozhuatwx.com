@@ -1,5 +1,69 @@
 [
   {
+    "id": "work-project-3",
+    "title": "Payments Portal",
+    "description": "A web platform to simplify electricity bill payments for businesses by providing multiple payment options and allowing them to pay for multiple branches within a single payment.",
+    "category": "Work",
+    "status": "Multinational Electric Utility Company",
+    "tags": [ "Work", "React.js", "TypeScript", "ASP.NET Core", "AWS", "C#", "Entity Framework Core", "Docker" ],
+    "technologies": [
+      {
+        "src": "assets/icons/reactjs-logo.svg",
+        "alt": "React.js"
+      },
+      {
+        "src": "assets/icons/typescript-logo.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "src": "assets/icons/aws-logo.svg",
+        "alt": "AWS"
+      },
+      {
+        "src": "assets/icons/aspnet-core-logo.webp",
+        "alt": "ASP.NET Core"
+      },
+      {
+        "src": "assets/icons/csharp-logo.svg",
+        "alt": "C#"
+      },
+      {
+        "src": "assets/icons/ef-core-logo.webp",
+        "alt": "Entity Framework Core"
+      },
+      {
+        "src": "assets/icons/docker-logo.svg",
+        "alt": "Docker"
+      }
+    ]
+  },
+  {
+    "id": "work-project-2",
+    "title": "Vessel Management System",
+    "description": "A web platform to schedule algorithmically calculated vessel trips; maximising profits and utilisations while minimising costs and emissions - saving 15% fuel on average.",
+    "category": "Work",
+    "status": "Multinational Oil & Gas Company",
+    "tags": [ "Work", "React.js", "TypeScript", "Azure", "Node.js" ],
+    "technologies": [
+      {
+        "src": "assets/icons/reactjs-logo.svg",
+        "alt": "React.js"
+      },
+      {
+        "src": "assets/icons/typescript-logo.svg",
+        "alt": "TypeScript"
+      },
+      {
+        "src": "assets/icons/azure-logo.svg",
+        "alt": "Azure"
+      },
+      {
+        "src": "assets/icons/nodejs-logo.svg",
+        "alt": "Node.js"
+      }
+    ]
+  },
+  {
     "id": "personal-website",
     "title": "Personal Website",
     "description": "My personal online playground for me to mess around with code.",
@@ -97,13 +161,12 @@
     ]
   },
   {
-    "id": "aleca",
-    "title": "ALECA",
-    "description": "A web-based system catered for the O&G industry using AspNet Boilerplate.",
-    "category": "Internship",
-    "tags": [ "Internship", "Angular", "TypeScript", "ASP.NET Core", "C#", "EF Core" ],
-    "externalUrl": true,
-    "url": "https://www.alecasolutions.com/modules",
+    "id": "work-project-1",
+    "title": "Sustainability Goals Management System",
+    "description": "A web platform to help companies deliver technical, commercial and sustainability goals.",
+    "category": "Work",
+    "status": "Local Software Company in Oil & Gas Industry",
+    "tags": [ "Work", "Angular", "TypeScript", "ASP.NET Core", "Azure", "C#", "Entity Framework Core" ],
     "technologies": [
       {
         "src": "assets/icons/angular-logo.svg",
@@ -166,7 +229,7 @@
   {
     "id": "university-assignment-software-developer-project",
     "title": "Co-curriculum System",
-    "description": "An online portal for a university’s societies to promote themselves.",
+    "description": "An online portal for a university's societies to promote themselves.",
     "category": "Diploma Project",
     "tags": [ "PHP" ],
     "externalUrl": true,

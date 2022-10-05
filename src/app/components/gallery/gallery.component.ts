@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { GalleryData, GalleryDataType } from 'src/app/models/gallery-data.model';
+import { GalleryData, GalleryDataEnum } from 'src/app/models/gallery-data.model';
 
 @Component({
   selector: 'app-gallery',
@@ -10,7 +10,7 @@ import { GalleryData, GalleryDataType } from 'src/app/models/gallery-data.model'
 export class GalleryComponent {
 
   @Input() data: GalleryData[] = [];
-  @Input() dataType = GalleryDataType.BLOG;
+  @Input() dataType = GalleryDataEnum.BLOG;
   @Input() flexRow = false;
   @Input() numberOfResults = 10;
   @Input() showMore = false;

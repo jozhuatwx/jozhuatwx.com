@@ -4,7 +4,7 @@ import { HttpRequestService } from 'src/app/services/http-request/http-request.s
 import { GoogleAnalyticsService } from 'src/app/services/google-analytics/google-analytics.service';
 import { MetaTagsService } from 'src/app/services/meta-tags/meta-tags.service';
 
-import { GalleryData, GalleryDataType } from 'src/app/models/gallery-data.model';
+import { GalleryData, GalleryDataEnum } from 'src/app/models/gallery-data.model';
 import { MetaTags } from 'src/app/models/meta-tags.model';
 import { GtagExceptionEvent } from 'src/app/models/google-analytics/event/gtag-exception-event.model';
 
@@ -18,7 +18,7 @@ export class ProjectsComponent implements OnInit {
   loading = true;
   projects: GalleryData[] = [];
 
-  GalleryDataType = GalleryDataType;
+  GalleryDataEnum = GalleryDataEnum;
 
   constructor(
     private httpRequestService: HttpRequestService,

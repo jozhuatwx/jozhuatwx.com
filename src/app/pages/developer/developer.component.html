@@ -17,13 +17,13 @@
     <div class='content'>
       <section>
         <h5 class='page-subheader underline'><a href='/developer/projects' [routerLink]='"/developer/projects"' rel='noopener'>projects</a></h5>
-        <app-gallery [data]='projects' [dataType]='GalleryDataType.DEVELOPER_PROJECT' [numberOfResults]='deviceService.isMobile ? 1 : 2' [showMore]='true' [showMoreLink]='"/developer/projects"'></app-gallery>
+        <app-gallery [data]='projects' [dataType]='GalleryDataEnum.DEVELOPER_PROJECT' [numberOfResults]='deviceService.isMobile ? 1 : 3' [showMore]='true' [showMoreLink]='"/developer/projects"'></app-gallery>
       </section>
 
-      <section>
+      <!-- <section>
         <h5 class='page-subheader underline'><a href='/developer/blog' [routerLink]='"/developer/blog"' rel='noopener'>blog</a></h5>
-        <app-gallery [data]='blog' [dataType]='GalleryDataType.BLOG' [infiniteScroll]='true'></app-gallery>
-      </section>
+        <app-gallery [data]='blog' [dataType]='GalleryDataEnum.BLOG' [infiniteScroll]='true'></app-gallery>
+      </section> -->
     </div>
   </div>
 </div>
