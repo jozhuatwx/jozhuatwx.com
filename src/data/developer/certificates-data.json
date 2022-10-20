@@ -22,9 +22,7 @@
   {
     "id": "azure-ai-engineer-associate",
     "title": "Microsoft Certified: Azure AI Engineer Associate",
-    "tags": [
-      "Microsoft", "Azure", "Associate"
-    ],
+    "tags": [ "Microsoft", "Azure", "Associate" ],
     "heroImage": {
       "src": "assets/developer/certificates/azure-ai-engineer-associate-badge.webp",
       "alt": "Microsoft Certified: Azure AI Engineer Associate"
@@ -32,13 +30,19 @@
     "url": "https://www.credly.com/badges/09f2785b-6ef1-490e-9c46-3186d1cc3e04"
   },
   {
+    "id": "azure-cosmos-db-developer-specialty",
+    "title": "Microsoft Certified: Azure Cosmos DB Developer Specialty",
+    "tags": [ "Microsoft", "Azure", "Specialty" ],
+    "heroImage": {
+      "src": "assets/developer/certificates/azure-cosmos-db-developer-specialty-badge.webp",
+      "alt": "Microsoft Certified: Azure Cosmos DB Developer Specialty"
+    },
+    "url": "https://www.credly.com/badges/80b92e1d-3e75-4c31-a518-9fde8e2ffefc"
+  },
+  {
     "id": "microsoft-learn-student-ambassador",
     "title": "Microsoft Learn Student Ambassador: Beta",
-    "tags": [
-      "Microsoft",
-      "Azure",
-      "Fundamentals"
-    ],
+    "tags": [ "Microsoft" ],
     "heroImage": {
       "src": "assets/developer/certificates/mlsa-beta-badge.webp",
       "alt": "Microsoft Learn Student Ambassador: Beta"
