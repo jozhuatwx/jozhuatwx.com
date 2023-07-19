@@ -1,4 +1,49 @@
-[
+[{
+    "id": "work-project-4",
+    "title": "Enterprise Data Hub",
+    "description": "A hub that centrals data from various sources to enable further analysis.",
+    "category": "Work",
+    "status": "Multinational Energy Marinetime Company",
+    "tags": [ "Work", "Azure", "Azure Data Lake Storage Gen2", "Azure SQL Database", "Azure Data Factory", "Azure Databricks", "Azure DevOps", "Azure Key Vault", "Microsoft Purview", "Python" ],
+    "technologies": [
+      {
+        "src": "assets/icons/azure-logo.svg",
+        "alt": "Azure"
+      },
+      {
+        "src": "assets/icons/azure-storage-logo.svg",
+        "alt": "Azure Data Lake Storage Gen2"
+      },
+      {
+        "src": "assets/icons/azure-sql-database-logo.svg",
+        "alt": "Azure SQL Database"
+      },
+      {
+        "src": "assets/icons/azure-data-factory-logo.svg",
+        "alt": "Azure Data Factory"
+      },
+      {
+        "src": "assets/icons/azure-databricks-logo.svg",
+        "alt": "Azure Databricks"
+      },
+      {
+        "src": "assets/icons/azure-devops-logo.svg",
+        "alt": "Azure DevOps"
+      },
+      {
+        "src": "assets/icons/azure-key-vault-logo.svg",
+        "alt": "Azure Key Vault"
+      },
+      {
+        "src": "assets/icons/microsoft-purview-logo.svg",
+        "alt": "Microsoft Purview"
+      },
+      {
+        "src": "assets/icons/python-logo.svg",
+        "alt": "Python"
+      }
+    ]
+  },
   {
     "id": "work-project-3",
     "title": "Payments Portal",
